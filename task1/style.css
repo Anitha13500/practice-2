@@ -2,9 +2,9 @@
 	background-color:#FEF8F5;
 	padding-bottom:5rem;
 }
-.top button{
+.started {
 	background-color:#eb5d1e;
-	margin-top:1rem;
+	/* margin-top:1rem; */
 	color:white;
 	border:none;
 	padding:0.5rem;
@@ -131,7 +131,7 @@
 }
 .ipsum{
 	background-color:white;
-	/* padding:2rem;  */
+	padding:1rem;  
 	line-height:2;
 	margin-top:1.5rem;
 	border-radius:15px;
@@ -314,7 +314,7 @@
 }
 .formbut button{
 	background-color:#eb5d1e;
-	padding:.5rem;
+	padding:10px 20px;
 	font-size:1.2rem;
 	color:white;
 }
@@ -324,7 +324,7 @@
 /* finish */
 .page9{
 	padding-top:2rem;
-	padding-bottom:5rem;
+	padding-bottom:2rem;
 	background-color:#FEF8F5;
 }
 .join h1{
@@ -335,24 +335,94 @@
 .join p{
 	text-align:center;
 	margin-top:2rem;
-	font-size:1.2rem;
+	font-size:1rem;
 }
 .join {
 	text-align:center;
 }
 .join input{
-	margin-top:1rem;
-	padding:1rem;
-	width:20%;
-}
-.join button{
-	background-color:#C54811;
-	color:white;
-	padding:1rem;
-	border:1px solid #c54811;
-	width:20%;
-}
+	height:40px;
+	width:55%;
+	border:none;
 	
+}
+.join a{
+	text-decoration:none;
+	color:white;
+	background-color:#eb5d1e;
+	padding:10px 20px;
+}
+.page10{
+	padding-top:2rem;
+	margin-top:2rem;
+   padding-bottom:3rem;
+}
+.page10 h4{ 
+font-size:1rem;
+font-weight:600;
+}
+.page10 p{ 
+font-size:0.9rem;
+line-height:2;
+}
+	.usefullink ul, li{
+	display:block;
+	padding:0px;
+}
+.usefullink{
+	padding:0px;
+} 
+.usefullink h4{
+	font-size:1rem;
+	font-weight:600;
+}
+.usefullink iconify-icon{
+	font-size:15px;
+	color:orange;
+}
+.usefullink a{
+	text-decoration:none;
+	color:black;
+	line-height:2.5;
+	font-size:15px;
+}
+.twitter{
+	width:100%;
+	display:flex;
+	
+}
+.facebook iconify-icon{
+	font-size:20px;
+	width:35px;
+	height:35px;
+	border-radius:50%;
+	background-color:#EC692E;
+    color: #fff;
+	cursor:pointer;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-left:7px;
+}
+.social h4{
+	font-size:1rem;
+	font-weight:600;
+}
+.footer{
+	background-color:#FEF8F5;
+}
+.copy {
+	
+	padding-top:2rem;
+	padding-bottom:2rem;
+	display:flex;
+	justify-content:space-between;
+}
+.copy2 a{
+	color:orange;
+	text-decoration:none;
+}
+
 	
 	
 	
