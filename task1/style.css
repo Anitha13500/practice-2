@@ -237,18 +237,92 @@
 	padding-bottom:5rem;
 	background-color:#FEF8F5;
 }
+.accordion-item{
+	background-color:#FEF8F5;
+}
+.accordion-button{
+	background-color:#FEF8F5 !important;
+}
+.accordion-button:hover{
+	color:orange !important
+}
 /* finish */
 .page6{
 	margin-top:2rem;
 	padding-bottom:5rem;
 }
-.Officer{
+.team{
+	position:relative; 
 	width:100%;
-	margin-top:2rem;
+	margin-top:1rem;
 }
-.officer img{
+.team:hover .team1{
+	opacity:1;
+	transition:1s ease;
+}
+.team1{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	text-align:center;
 	width:100%;
+	background-color:#0000006e;
+	opacity:0;
 	
+}
+.team1 h3{
+color:white;
+font-size:1.2rem;
+margin-top:15rem;
+text-align:center;
+}
+.team1 p{
+color:white;
+font-size:1.3rem;
+text-align:center;
+}
+.teamicon iconify-icon{
+	color:white;
+	font-size:1.3rem;
+	padding:0.7rem;
+}
+.teamicon{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	text-align:center;
+	width:15%;
+	background-color:#0000006e;
+	opacity:0;
+}
+.team:hover .teamicon{
+	opacity:1;
+	transition:1s ease;
+}
+.team img{
+	width:100%;
+}
+@media(min-width:1024px){
+
+.team1 h3{
+color:white;
+font-size:1.1rem;
+margin-top:11rem;
+}
+.team1 p{
+color:white;
+font-size:0.9rem;
+text-align:center;
+}
+.teamicon iconify-icon{
+	color:white;
+	font-size:1rem;
+	padding:0.5rem;
+	}
 }
 /* finish */
 .page7{
@@ -256,6 +330,10 @@
 	padding-top:2rem;
 	padding-bottom:5rem;
 	background-color:#FEF8F5;
+}
+.client img{
+	width:100%;
+	padding:1rem;
 }
 /* finish */
 .page8{
@@ -411,16 +489,47 @@ line-height:2;
 .footer{
 	background-color:#FEF8F5;
 }
-.copy {
+.copy{
+	padding-bottom:3rem;
+	text-align:center;
+	}
+.copy1{
+	
+	padding-top:2rem;
+	}
+	.copy2{
+	
+	padding-top:2rem;
+	}
+.copy2 a{
+	color:orange;
+	text-decoration:none;
+}
+@media(min-width:768px){
+	.copy {
 	
 	padding-top:2rem;
 	padding-bottom:2rem;
 	display:flex;
 	justify-content:space-between;
-}
+	}
 .copy2 a{
 	color:orange;
 	text-decoration:none;
+	}
+}
+@media(min-width:1024px){
+	.copy {
+	
+	padding-top:2rem;
+	padding-bottom:2rem;
+	display:flex;
+	justify-content:space-between;
+	}
+.copy2 a{
+	color:orange;
+	text-decoration:none;
+	}
 }
 
 	
