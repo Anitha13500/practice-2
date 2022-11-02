@@ -9,22 +9,118 @@
 <body>
     <script src="main.js"></script>
     <script>
+        
+   {
+       for(i=5; i>=1; i--) {
+            for(j=1; j<=i; j++){
+             document.write(j);
+             }
+           document.write("<br>")
+        }
+    }    
+        {
         for(i=1; i<=5; i++) {
             for(j=1; j<=i; j++) {
              document.write(i);
              }
-            document.write("<br>")
+             document.write("<br>")
 
+     }
+   } 
+   {
+    for (a=65; a<=69; a++){
+        for(b=65;b<=a;b++){
+            document.write(String.fromCharCode(b));
         }
-        for(i=1; i<=5; i++) {
-            for(j=1; j<=i; j++) {
-             document.write(j);
-             }
-            document.write("<br>")
+        document.write("<br>")
+    }
+   }
+   {
+    for (a=65; a<=73; a++){
+        for(b=65;b<=a;b++){
+            document.write(String.fromCharCode (b));
+        }
+        document.write("<br>")
+    }
+    document.write("<br>")
+   }
+  
+   {
+    //number is positive
+        let x=19
+        if(x>=0){
+            document.write("number is positive")
+        }
+        else{
+            document.write("not")
+        }
+        document.write("<br>")
+   }  
+   {
+    //even or odd
+        let z=prompt("Enter your Number");
+        if(z%2==0){
+        document.write("number is even")
+        }
+         else {
+            document.write("number is add");
+        }
+        document.write("<br>")
+    }
+    {
+        //grade
+        let grade  ="C";
+            switch(grade){
+                case "A":
+                document.write("1 st grade");
+                 break;
+                case "B":
+                document.write("2 nd grade");
+                 break;
+                 case "C":
+                 document.write("3 grade");
+                break;
+                default:
+                document.write("none");
+                break;
+           }
+           document.write("<br>")
+    }
+   // marriage eligibility
+   {
+     let age=3;
+        if(age>=18){
+            document.write("Eligible");
+        }
+        else{
+            document.write("not eligible")
+        }
+        document.write("<br>")
+   }
+   {
+    //divisible by 5
+    let z=prompt("Enter your Number");
+        if(z%5==0){
+        document.write("number is divisible")
+        }
+         else {
+            document.write("not divisible");
+        }
+        document.write("<br>")
+    }
+    {
+        //greater than 10
+        let p=9;
+        if(p>=10){
+            document.write("greater than")
+        }
+        else{
+            document.write("less than")
+        }
+    }
 
-        }
-        
-        
+
+   
     </script>
 </body>
 </html>
